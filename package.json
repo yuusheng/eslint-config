@@ -1,6 +1,6 @@
 {
   "name": "@yuusheng/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "author": "yuusheng <contact@yuusheng.cn>",
   "license": "MIT",
@@ -13,8 +13,10 @@
     "lint": "eslint .",
     "release": "bumpp package.json"
   },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.27.0"
+  },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.24.0",
     "typescript": "^4.8.4"
