@@ -1,11 +1,14 @@
 {
   "name": "@yuusheng/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "yuusheng <contact@yuusheng.cn>",
   "license": "MIT",
   "keywords": [],
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint .",
     "release": "bumpp package.json"
